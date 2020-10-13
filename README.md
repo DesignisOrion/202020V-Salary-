@@ -16,6 +16,7 @@ In this project I was able to learn about DB Browser for SQLite. The software ha
 - Matplotlib
 - SQLite3 (https://sqlitebrowser.org/)
 - DB Browser for SQLite
+- Anaconda (VSCODE)
 
 
 
