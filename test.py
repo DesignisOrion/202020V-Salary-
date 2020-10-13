@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 # Create a SQL connection to our SQLite database
 con = sqlite3.connect("202020V.db")
 
-df = pd.read_sql_query("SELECT * from EmployeeSalary", con)
+salary_table = pd.read_sql_query("SELECT * from EmployeeSalary", con)
 
-print(df)
+print(salary_table)
 con.close()
